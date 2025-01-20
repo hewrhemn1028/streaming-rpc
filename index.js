@@ -16,12 +16,12 @@ async function CustomRPC() {
   Image = await rpcGenerator.getRpcImage(ApplicationID, Image)
 
   return new rpcGenerator.Rpc()
-    .setName('Name')
-    .setDetails('Name') // same as Name
+    .setName('Dev of kurdistan')
+    .setDetails('AnO') // same as Name
     .setState('State')
     .setParty({ size: [1, 4], id: uuid() }) // Party size: [current, max]
-    .setAssetsLargeText('Image Text')
-    .setUrl('https://twitch.tv/something')
+    .setAssetsLargeText('Ano hemn')
+    .setUrl('https://www.twitch.tv/anohemn?sr=a')
     .setType('STREAMING')
     .setApplicationId(ApplicationID)
     .setAssetsLargeImage(Image.id)
